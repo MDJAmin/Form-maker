@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: #f8f8f8;
+  --box-bg: #ffffff;
+  --name-color: #232323;
+  --card-bg-text: #343434;
+}
+
+.dark:root {
+  --main-bg: #131313;
+  --box-bg: #232323;
+  --name-color: #f8f8f8;
+  --card-bg-text: #ffffff;
+}
+
+body {
+  margin: 10px;
+  background: var(--main-bg);
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  transition: all 0.5s;
+}
+
+.mode-switch {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  color: var(--name-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+input {
+  margin: 0.8rem;
+  border: 0;
+  padding: 4px;
+  border-bottom: 0.7px solid;
+  border-right: 0.2px solid rgba(0, 0, 0, 0.663);
+  border-left: 0.1px solid rgba(0, 0, 0, 0.119);
+  border-top: 0.1px solid rgba(0, 0, 0, 0.063);
+  background-color: var(--name-color);
+  color: var(--main-bg);
+  transition: all 0.6s;
+
+}
+select {
+  margin: 1rem;
+  border: 0;
+  padding: 4px;
+  border-bottom: 0.7px solid;
+  border-right: 0.2px solid rgba(0, 0, 0, 0.663);
+  border-left: 0.1px solid rgba(0, 0, 0, 0.119);
+  border-top: 0.1px solid rgba(0, 0, 0, 0.063);
+  background-color: var(--name-color);
+  color: var(--main-bg);
+  transition: all 0.6s;
+}
+
+.btn-add {
+  margin: 0.5rem;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: var(--main-bg);
+  background-color: var(--name-color);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.btn-add:hover {
+  background-color: rgb(0, 254, 89);
+  scale: 1.06;
+}
+#add-element {
+  color: var(--name-color);
+  transition: all 0.5s;
+}
+label{
+  color: var(--name-color);
+  transition: all 0.5s;
+}
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background-color: var(--name-color);
+  transition: all 0.5s;
+}
+.item p {
+  padding-top: 42%;
+  text-align: center;
+  color: var(--box-bg);
+  transition: all 0.5s;
+}
+#Moon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+input{
+  border-radius: 8px;
+}
+.container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
