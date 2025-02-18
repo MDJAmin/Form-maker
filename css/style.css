@@ -53,7 +53,6 @@ input {
   background-color: var(--name-color);
   color: var(--main-bg);
   transition: all 0.6s;
-
 }
 select {
   margin: 1rem;
@@ -86,7 +85,7 @@ select {
   color: var(--name-color);
   transition: all 0.5s;
 }
-label{
+label {
   color: var(--name-color);
   transition: all 0.5s;
 }
@@ -111,11 +110,11 @@ label{
   right: 10px;
   top: 10px;
 }
-input{
+input {
   border-radius: 8px;
 }
-.container{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
