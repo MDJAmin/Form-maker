@@ -151,10 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
   modeSwitch.addEventListener("click", () => {
     document.documentElement.classList.toggle("dark");
     modeSwitch.classList.toggle("active");
-    localStorage.setItem(
-      "darkMode",
-      document.documentElement.classList.contains("dark")
-    );
+    localStorage.setItem("darkMode", document.documentElement.classList.contains("dark"));
   });
 });
 // console.log(hi)

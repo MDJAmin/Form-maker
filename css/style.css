@@ -117,4 +117,34 @@ input {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 10%;
+}
+
+.MDJAminDiv {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  position: absolute;
+  top: 10px;
+  left: 2%;
+}
+
+.MDJAmin {
+  text-decoration: none;
+  border-bottom: 1px dashed var(--card-bg-text);
+  border-top: 1px dashed var(--card-bg-text);
+  /* border-bottom: 1px dashed rgb(44, 44, 44); */
+  /* border-top: 1px dashed rgb(44, 44, 44); */
+  padding: 4px 0;
+  /* color: rgba(44, 44, 44, 0.525); */
+  color: var(--card-bg-text);
+  font-family: monospace;
+  font-style: italic;
+  font-size: 1.1em;
+  transition: all 0.5s;
+}
+
+.MDJAmin:hover {
+  /* color: #000000; */
+  color: var(--name-color);
 }
