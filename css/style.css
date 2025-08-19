@@ -121,14 +121,11 @@ input {
 }
 
 .MDJAminDiv {
-  display: flex;
-  justify-content: center;
   z-index: 4444;
   position: fixed;
-  top: 10px;
+  bottom: 5%;
   left: 2%;
 }
-
 .MDJAmin {
   text-decoration: none;
   border-bottom: 1px dashed var(--card-bg-text);
